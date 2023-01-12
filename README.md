@@ -1,7 +1,7 @@
 # SpanSportLeagueCodingAssesment
 I have created a program for the Span coding challenge I was sent 
 
-For context I decided to use Springboot and create a rest API for simplicity so that it is easy to run from any evironment. 
+For context I deviated slighly from from the initial request and decided to use Springboot and create a rest API for simplicity so that it is easy to run from any evironment. 
 There is no complex setup once the application has been downloaded it can be run and you can use postman in order to test the application 
 
 The application accepts a JSON entry with the following format 

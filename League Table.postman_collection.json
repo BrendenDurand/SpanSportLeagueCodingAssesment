@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "93407c71-eb03-42fd-a8a7-80e312e1ef51",
+		"name": "League Table",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "15684047"
+	},
+	"item": [
+		{
+			"name": "Calculate League Results",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "     Lions 3, Snakes 3\r\n    Tarantulas 1, FC Awesome 0\r\n    Lions 1, FC Awesome 1\r\n    Tarantulas 3, Snakes 1\r\n    Lions 4, Grouches 0\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/ordered/results"
+			},
+			"response": []
+		}
+	]
+}
